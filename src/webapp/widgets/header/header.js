@@ -1,4 +1,4 @@
-// require('./header.css');
+require('./header.css');
 
 const header = {
   init(){

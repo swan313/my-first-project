@@ -10,7 +10,10 @@ gulp.task('builddev', () => {
     gulp.src('./src/nodeuii/**/*.js').pipe(babel({
       //不设置此属性，用外的.babelirc编译
       babelrc: false,
-      'plugins': ["transform-es2015-modules-commonjs"]
+      'plugins': [
+        "transform-decorators-legacy",  //装饰器@
+        "transform-es2015-modules-commonjs"
+      ]
     })).pipe(gulp.dest('dist'));
   })
 });
@@ -19,7 +22,10 @@ gulp.task('buildprod', () => {
   gulp.src('./src/nodeuii/**/*.js').pipe(babel({
     babelrc: false,
     ignore: ['./src/nodeuii/config/*.js'],
-    'plugins': ["transform-es2015-modules-commonjs"]
+    'plugins': [
+      "transform-decorators-legacy",  //装饰器@
+      "transform-es2015-modules-commonjs"
+    ]
   })).pipe(gulp.dest('dist'));
 });
 

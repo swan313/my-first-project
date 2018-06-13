@@ -1,6 +1,29 @@
-body {
-  background: #ccc;
-  & .next {
-    color: red;
+:root {
+  --headerHeight: 70px;
+}
+
+.widgets-header {
+  & .h-70 {
+    height: var(--headerHeight);
+  }
+  & .header-content {
+    line-height: var(--headerHeight);
+    color: brown;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+  }
+  & .header-content__logo {
+    float: left;
+  }
+  & .header-content__nav{
+    float: right;
+  }
+  & .header-content__nav ul li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+  }
+  & .header-content__nav-active {
+    text-decoration: underline;
   }
 }
