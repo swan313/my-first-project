@@ -1,0 +1,23 @@
+[2018-05-28T14:54:41.422] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:00:13.922] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:00:16.553] [ERROR] cheese - ReferenceError: error is not defined
+    at app.use (/Users/swan/Desktop/my-first-project/dist/middwares/errorHandler.js:22:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-28T15:00:17.774] [ERROR] cheese - ReferenceError: error is not defined
+    at app.use (/Users/swan/Desktop/my-first-project/dist/middwares/errorHandler.js:22:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-28T15:00:58.385] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:00:59.467] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:02:23.659] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:03:24.310] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:28:49.179] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:29:38.833] [ERROR] cheese - cheese is to ripe!
+[2018-05-28T15:31:36.952] [ERROR] cheese - cheese is to ripe!
+[2018-06-13T12:14:15.741] [ERROR] cheese - cheese is to ripe!
+[2018-06-13T12:14:20.079] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/swan/Desktop/my-first-project/dist/views/index.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/swan/Desktop/my-first-project/dist/views/index.html' }

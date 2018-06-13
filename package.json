@@ -1,0 +1,46 @@
+{
+  "name": "my-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "",
+    "run": "",
+    "start:dev": "cross-env NODE_ENV=devlopment supervisor ./dist/app.js",
+    "build:dev": "gulp",
+    "build:prod": "cross-env NODE_ENV=production gulp",
+    "docs": "jsdoc ./src/nodeuii/**/*.js -d ./docs/jsdocs",
+    "client:dev": "webpack --mode development",
+    "client:prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "cross-env": "^5.1.6",
+    "koa": "^2.5.1",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^4.0.3",
+    "koa-swig": "^2.2.1",
+    "lodash": "^4.17.10",
+    "log4js": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-rollup": "^2.16.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-watch": "^5.0.0",
+    "jsdoc": "^3.5.5",
+    "rollup-plugin-replace": "^2.0.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-merge": "^4.1.2",
+    "yargs-parser": "^10.0.0"
+  }
+}
